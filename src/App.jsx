@@ -1,9 +1,16 @@
 import React from 'react'
+import { About, Contact, Footer, Hero, Navbar, Projects, Skills} from './components'
 
 const App = () => {
   return (
     <div>
-      <div className='w-[100px] h-[100px] bg-black flex rounded-2xl justify-center items-center p-5 m-5 text-white text-center'>Hello world.</div>    
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
