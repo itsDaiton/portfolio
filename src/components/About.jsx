@@ -12,6 +12,7 @@ const About = () => {
           <div className='flex flex-row justify-between items-center'>
             <p className='font-normal text-[18px] w-[40%] text-justify leading-[36px]'>
               I'm a university student currently studying Applied Informatics at Prague University of Economics and Business.
+              I got into coding when I was 15, in my high school class and have been loving it ever since.
               I'm focused on learning and exploring frontend technologie and development (mainly React). 
               In my free time I like to code, play video games and watch TV shows. As a sports hobbies I love working out, cycling and skiing. 
               I'm currently looking for a frontend developer junior job.
