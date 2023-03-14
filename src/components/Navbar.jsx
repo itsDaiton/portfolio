@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center w-full py-5 text-[#020020] font-poppins'>
+    <div className='flex justify-between items-center w-full py-5 font-poppins text-[#1c1d20]'>
       <div className='text-[48px] font-semibold'>David.</div>
       <ul className='list-none flex justify-end items-center flex-1 space-x-16'>
         {navigation.map((link) => (

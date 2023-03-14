@@ -6,7 +6,7 @@ import { faFile, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 
 const Hero = () => {
   return (
-    <div className='flex py-6 font-poppins'>
+    <div className='flex py-6 font-poppins text-[#1c1d20]'>
       <div className='flex flex-row justify-between items-center w-full py-10'>
         <div className='flex flex-col py-52 justify-start'>
           <h1 className='font-semibold text-[72px]'>David Poslušný</h1>
