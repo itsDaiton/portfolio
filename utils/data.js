@@ -138,3 +138,46 @@ export const database = [
     level: 'Beginner'
   },
 ]
+
+export const projects = [
+  {
+    id: 1,
+    image: '/src/assets/projects/food-square.png',
+    title: 'Food Square',
+    description: 'Social network for food lovers.',
+    github: 'https://github.com/itsDaiton/food-square',
+    demo: 'https://food-square.site'
+  },
+  {
+    id: 2,
+    image: '/src/assets/projects/swift.png',
+    title: 'Swift',
+    description: 'Interactive map tool to plan your trips.',
+    github: 'https://github.com/itsDaiton/swift',
+    demo: 'swift-pst0.onrender.com/'
+  },
+  {
+    id: 3,
+    image: '/src/assets/projects/weather-app.png',
+    title: 'Weather App',
+    description: 'Simple JavaScript weather application that fetches weather data for a specific location from an API and displays it to user in a modern design.',
+    github: 'https://github.com/itsDaiton/weather-app',
+    demo: 'https://sparkly-lolly-96f74c.netlify.app/'  
+  },
+  {
+    id: 4,
+    image: '/src/assets/projects/running-frog.png',
+    title: 'Running Frog',
+    description: 'A flash-like JavaScript game.',
+    github: 'https://github.com/itsDaiton/running-frog',
+    demo: 'https://cool-genie-41cf5f.netlify.app/'  
+  },
+  {
+    id: 5,
+    image: '/src/assets/projects/maze-runner.png',
+    title: 'Maze Runner',
+    description: 'Simple JavaScript Maze game.',
+    github: 'https://github.com/itsDaiton/maze-runner',
+    demo: 'https://regal-fairy-45218d.netlify.app/'  
+  }
+]

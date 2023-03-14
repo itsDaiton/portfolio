@@ -13,3 +13,11 @@
 .button-shadow {
   box-shadow: 0 5px 10px 2px rgb(0 0 0 / 0.25);
 }
+
+.swiper-pagination-bullet-active {
+  background-color: #6228c1 !important;
+}
+
+.swiper-button-prev, .swiper-button-next  {
+  color: #6228c1 !important;
+}
