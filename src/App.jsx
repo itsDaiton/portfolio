@@ -3,14 +3,18 @@ import { About, Contact, Footer, Hero, Navbar, Projects, Skills} from './compone
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+    <div className='w-full overflow-hidden'>
+      <div className='sm:px-16 px-6 flex justify-center items-center'>
+        <div className='2xl:max-w-[1536px] w-full'>
+          <Navbar/>
+          <Hero/>
+          <About/>
+          <Skills/>
+          <Projects/>
+          <Contact/>
+          <Footer/>
+        </div>
+      </div>
     </div>
   )
 }
