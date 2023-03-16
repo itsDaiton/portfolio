@@ -12,7 +12,7 @@ const Navbar = () => {
             key={link.id}
             className='cursor-pointer text-[20px]'
             whileHover={{
-              color: 'red',
+              fontWeight: 'bold',
               scale: 1.2
             }}
           >
