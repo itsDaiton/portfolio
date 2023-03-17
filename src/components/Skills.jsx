@@ -5,7 +5,7 @@ import { backend, frontend, database } from '../../utils/data'
 
 const Skills = () => {
   return (
-    <div className='flex py-6 font-poppins'>
+    <div className='flex py-6 font-poppins' id='skills'>
       <div className='flex w-full'>
         <div className='flex py-10 justify-center w-full flex-col'>
           <div className='flex flex-row justify-center'>

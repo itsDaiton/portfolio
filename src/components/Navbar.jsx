@@ -16,7 +16,7 @@ const Navbar = () => {
               scale: 1.2
             }}
           >
-            <a href={`${link.title.toLowerCase()}`}>
+            <a href={`#${link.title.toLowerCase()}`}>
               {link.title}
             </a>
           </motion.li>

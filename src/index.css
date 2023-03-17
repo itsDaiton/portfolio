@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .button-shadow {
@@ -15,9 +16,17 @@
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #6228c1 !important;
+  background-color: #1c1d20 !important;
 }
 
 .swiper-button-prev, .swiper-button-next  {
-  color: #6228c1 !important;
+  color: #1c1d20 !important;
+}
+
+.swiper-button-next {
+  margin-right: 90px;
+}
+
+.swiper-button-prev {
+  margin-left: 90px;
 }

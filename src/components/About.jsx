@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
   return (
-    <div className='flex py-6 font-poppins'>
+    <div className='flex py-6 font-poppins' id='about'>
       <div className='flex w-full'>
         <div className='flex flex-col py-10 justify-start'>
           <h1 className='font-semibold text-[56px]'>About Me</h1>
