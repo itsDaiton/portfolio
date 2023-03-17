@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide }  from 'swiper/react'
 import { Keyboard, Navigation, Pagination, Autoplay } from 'swiper';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faTvAlt } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightFromSquare, faCode, faTvAlt } from '@fortawesome/free-solid-svg-icons';
 import { projects } from '../../utils/data';
 
 import 'swiper/css';
@@ -86,6 +86,19 @@ const Projects = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
+          </div>
+          <div className='flex justify-center'>
+            <motion.div 
+              className='flex justify-center items-center px-5 py-5 space-x-3 rounded-full button-shadow'
+              whileHover={{
+                scale: 1.1
+              }}
+            >
+              <a href='https://github.com/itsDaiton' target='_blank' className='text-[22px] font-semibold'>
+                Check out all my projects on GitHub.
+              </a>
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-[28px]'/>
+            </motion.div>
           </div>
         </div>
       </div>
