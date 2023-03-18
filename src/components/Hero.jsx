@@ -7,29 +7,29 @@ import { faFile, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 const Hero = () => {
   return (
     <div className='flex py-6 font-poppins text-[#1c1d20]'>
-      <div className='flex flex-row justify-between items-center w-full py-10'>
-        <div className='flex flex-col py-52 justify-start'>
-          <h1 className='font-semibold text-[72px]'>David Poslušný</h1>
-          <p className='font-normal text-[36px]'>Applied Informatics Student</p>
-          <div className='flex flex-row items-center space-x-5'>
+      <div className='flex lg:flex-row flex-col lg:justify-between justify-start items-center w-full py-10'>
+        <div className='flex flex-col md:py-52 py-36 justify-start lg:w-fit w-full'>
+          <h1 className='font-semibold xl:text-[72px] lg:text-[56px] md:text-[48px] sm:text-[42px] es:text-[36px] text-[32px]'>David Poslušný</h1>
+          <p className='font-normal xl:text-[36px] lg:text-[32px] md:text-[28px] sm:text-[24px] es:text-[20px] text-[16px]'>Applied Informatics Student</p>
+          <div className='flex es:flex-row flex-col es:items-center items-start es:space-x-5 space-x-0'>
             <motion.button 
-              className='flex justify-start items-center text-[20px] px-10 py-5 my-5 space-x-2 w-fit font-semibold bg-white 
-              rounded-full button-shadow'
+              className='flex justify-start items-center sm:text-[20px] text-[16px] es:px-10 px-5 es:py-5 py-3 es:my-5 my-3 space-x-2 w-fit 
+              font-semibold bg-white rounded-full button-shadow'
               whileHover={{
                 scale: 1.1
               }}
             >
-              <a href='contact'>Contact</a>
+              <a href='#contact'>Contact</a>
               <FontAwesomeIcon icon={faPaperPlane}/>
             </motion.button>
             <motion.button 
-              className='flex justify-start items-center text-[20px] px-10 py-5 my-5 space-x-2 w-fit font-semibold bg-white 
-              rounded-full button-shadow'
+              className='flex justify-start items-center sm:text-[20px] text-[16px] es:px-10 px-5 es:py-5 py-3 es:my-5 my-3 space-x-2 w-fit 
+              font-semibold bg-white rounded-full button-shadow'
               whileHover={{
                 scale: 1.1
               }}
             >
-              <span>Download CV</span>
+              <span>Resume</span>
               <FontAwesomeIcon icon={faFile}/>
             </motion.button>
           </div>
@@ -54,13 +54,16 @@ const Hero = () => {
             </motion.a>
           </div>
         </div>
-        <div className='relative w-[450px] h-[450px] mr-10 mt-10'>
-          <div className='w-[450px] h-[450px] bg-black rounded-full absolute -top-28 -left-28 z-10'/>
+        <div className='2xl:w-[450px] 2xl:h-[450px] xl:w-[375px] xl:h-[375px] lg:w-[300px] lg:h-[300px] md:w-[400px] md:h-[400px] sm:w-[300px] sm:h-[300px] w-[200px] h-[200px]
+        relative sm:mr-10 mr-0 sm:mt-10 mt-0'>
+          <div className='2xl:w-[450px] 2xl:h-[450px] xl:w-[375px] xl:h-[375px] lg:w-[300px] lg:h-[300px] md:w-[400px] md:h-[400px] sm:w-[300px] sm:h-[300px] w-[200px] h-[200px] 
+          rounded-full bg-black absolute sm:-top-28 -top-10 sm:-left-28 -left-10 z-10'/>
           <div>
             <img
               src='/src/assets/icon.png'
               alt='picture'
-              className='w-[450px] h-[450px] object-cover absolute z-20' 
+              className='2xl:w-[450px] 2xl:h-[450px] xl:w-[375px] xl:h-[375px] lg:w-[300px] lg:h-[300px] md:w-[400px] md:h-[400px] sm:w-[300px] sm:h-[300px] w-[200px] h-[200px]
+              object-cover absolute z-20' 
             />
           </div>
         </div>
