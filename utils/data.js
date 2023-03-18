@@ -36,7 +36,7 @@ export const about = [
   {
     id: 3,
     title: '10+',
-    text: 'Languages and Frameworks experienced.',
+    text: 'Languages and frameworks experienced.',
     icon: faCode
   },
 ]
