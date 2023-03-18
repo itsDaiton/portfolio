@@ -10,7 +10,7 @@ const Hero = () => {
       <div className='flex flex-row justify-between items-center w-full py-10'>
         <div className='flex flex-col py-52 justify-start'>
           <h1 className='font-semibold text-[72px]'>David Poslušný</h1>
-          <p className='font-normal text-[36px]'>Frontend Developer</p>
+          <p className='font-normal text-[36px]'>Applied Informatics Student</p>
           <div className='flex flex-row items-center space-x-5'>
             <motion.button 
               className='flex justify-start items-center text-[20px] px-10 py-5 my-5 space-x-2 w-fit font-semibold bg-white 

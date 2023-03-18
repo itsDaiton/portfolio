@@ -28,6 +28,7 @@ const ProjectBox = ({ image, title, description, github, demo, topics}) => {
             {topics.map((topic) => (
               <div className='flex justify-start items-center text-[14px] px-3 py-3 my-1 w-fit font-bold rounded-xl bg-white button-shadow
               mr-3'
+              key={topic}
               >
                 {topic}
               </div>

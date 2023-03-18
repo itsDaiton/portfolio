@@ -15,7 +15,7 @@ const Contact = () => {
           <div className='flex pt-20'>
             <div className='flex flex-col justify-end w-1/2 space-y-6'>
               {contacts.map((contact) => (
-                <div className='flex flex-row items-center space-x-16'>
+                <div className='flex flex-row items-center space-x-16' key={contact.id}>
                   <FontAwesomeIcon icon={contact.icon} className='text-[64px]'/>
                   <a href={contact.action} target='_blank' className='text-[28px] font-bold'>
                     {contact.text}
