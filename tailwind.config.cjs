@@ -7,7 +7,8 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"]
       },
       screens: {
-        'es': '400px'
+        'es': '400px',
+        'ns': '320px'
       }
     },
   },
