@@ -214,7 +214,7 @@ export const contacts = [
   {
     id: 3,
     text: '/david-poslušný-4b3a19242',
-    action: 'linkedin.com/in/david-poslušný-4b3a19242',
+    action: 'https://linkedin.com/in/david-poslušný-4b3a19242',
     icon: faLinkedin
   },
 ]
