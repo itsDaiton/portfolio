@@ -13,20 +13,20 @@ import 'swiper/css/pagination';
 const ProjectBox = ({ image, title, description, github, demo, topics}) => {
   return (
     <div>
-      <div className='flex flex-row justify-center space-x-20'>
-        <div>
+      <div className='flex lg:flex-row flex-col justify-center items-center lg:space-x-20 space-x-0'>
+        <div className='flex justify-center items-center'>
           <img
             src={image}
             alt={title}
-            className='w-[500px] h-[300px] object-cover rounded-2xl'
+            className='xl:w-[500px] xl:h-[300px] lg:w-[400px] lg:h-[250px] w-[90%] h-auto object-cover rounded-2xl'
           />
         </div>
-        <div className='flex flex-col justify-start items-start w-1/3 space-y-2'>
-          <h1 className='text-[28px] font-semibold'>{title}</h1>
-          <p className='text-[18px] text-justify'>{description}</p>
+        <div className='flex flex-col justify-center items-start xl:w-[30%] lg:w-[40%] sm:w-[60%] es:w-[80%] w-[70%] space-y-2 lg:pt-0 pt-12'>
+          <h1 className='xl:text-[28px] lg:text-[28px] sm:text-[24px] text-[22px] font-semibold'>{title}</h1>
+          <p className='xl:text-[18px] lg:text-[18px] sm:text-[16px] text-[14px] text-justify'>{description}</p>
           <div className='flex flex-row flex-wrap py-3'>
             {topics.map((topic) => (
-              <div className='flex justify-start items-center text-[14px] px-3 py-3 my-1 w-fit font-bold rounded-xl bg-white button-shadow
+              <div className='flex justify-start items-center es:text-[14px] text-[12px] px-3 py-3 my-1 w-fit font-bold rounded-xl bg-white button-shadow
               mr-3'
               key={topic}
               >
@@ -36,9 +36,9 @@ const ProjectBox = ({ image, title, description, github, demo, topics}) => {
           </div>
         </div>
       </div>
-      <div className='flex flex-row items-center justify-center space-x-5 mb-16 mt-5'>
+      <div className='flex flex-row items-center justify-center es:space-x-5 space-x-2 lg:mb-16 mb-10 mt-5'>
         <motion.button
-          className='flex justify-start items-center text-[16px] px-5 py-3 my-5 space-x-2 w-fit font-semibold rounded-full 
+          className='flex justify-start items-center es:text-[16px] ns:text-[14px] text-[12px] px-5 py-3 my-5 space-x-2 w-fit font-semibold rounded-full 
           bg-[#1c1d20] text-white'
           whileHover={{
             scale: 1.1
@@ -48,7 +48,7 @@ const ProjectBox = ({ image, title, description, github, demo, topics}) => {
           <FontAwesomeIcon icon={faCode}/>         
         </motion.button>
         <motion.button
-          className='flex justify-start items-center text-[16px] px-5 py-3 my-5 space-x-2 w-fit font-semibold rounded-full 
+          className='flex justify-start items-center es:text-[16px] ns:text-[14px] text-[12px] px-5 py-3 my-5 space-x-2 w-fit font-semibold rounded-full 
           bg-[#1c1d20] text-white'
           whileHover={{
             scale: 1.1
@@ -66,9 +66,9 @@ const Projects = () => {
   return (
     <div className='flex py-6 font-poppins' id='projects'>
       <div className='flex w-full'>
-        <div className='flex py-10 w-full flex-col'>
+        <div className='flex sm:py-10 py-5 w-full flex-col'>
           <div className='flex flex-row justify-center'>
-            <h1 className='font-semibold text-[56px] pb-8'>Projects</h1>
+            <h1 className='font-semibold lg:text-[56px] md:text-[48px] sm:text-[42px] text-[32px] pb-8'>Projects</h1>
           </div>
           <div className='flex flex-row py-10'>
             <Swiper
@@ -95,10 +95,12 @@ const Projects = () => {
                 scale: 1.1
               }}
             >
-              <a href='https://github.com/itsDaiton' target='_blank' className='text-[22px] font-semibold'>
-                Check out all my projects on GitHub.
+              <a href='https://github.com/itsDaiton' target='_blank' className='lg:text-[22px] md:text-[20px] sm:text-[18px] text-[14px]
+              font-semibold text-center'>
+                <span className='es:flex hidden'>Check out all my projects on GitHub.</span>
+                <span className='es:hidden flex'>GitHub.</span>
               </a>
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-[28px]'/>
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='lg:text-[28px] md:text-[24px] sm:text-[20px] text-[16px]'/>
             </motion.div>
           </div>
         </div>

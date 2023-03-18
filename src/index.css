@@ -24,12 +24,89 @@
 }
 
 .swiper-button-next {
-  margin-right: 90px;
+  margin-right: -10px;
 }
 
 .swiper-button-prev {
-  margin-left: 90px;
+  margin-left: -10px;
 }
+
+:root {
+  --swiper-navigation-size: 25px;
+}
+
+@media (min-width: 320px) {
+  :root {
+    --swiper-navigation-size: 35px;
+  }
+  .swiper-button-next {
+    margin-right: -10px;
+  }
+  .swiper-button-prev {
+    margin-left: -10px;
+  }
+}
+
+@media (min-width: 640px) {
+  :root {
+    --swiper-navigation-size: 40px;
+  }
+  .swiper-button-next {
+    margin-right: -10px;
+  }
+  .swiper-button-prev {
+    margin-left: -10px;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --swiper-navigation-size: 40px;
+  }
+  .swiper-button-next {
+    margin-right: -10px;
+  }
+  .swiper-button-prev {
+    margin-left: -10px;
+  } 
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --swiper-navigation-size: 40px;
+  } 
+  .swiper-button-next {
+    margin-right: -10px;
+  }
+  .swiper-button-prev {
+    margin-left: -10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --swiper-navigation-size: 40px;
+  }
+  .swiper-button-next {
+    margin-right: 50px;
+  }
+  .swiper-button-prev {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 1536px) {
+  :root {
+    --swiper-navigation-size: 44px;
+  }
+  .swiper-button-next {
+    margin-right: 100px;
+  }
+  .swiper-button-prev {
+    margin-left: 100px;
+  }
+}
+
 
 .footer-curved {
   position: relative;
