@@ -61,7 +61,7 @@ const Hero = () => {
           rounded-full bg-black absolute sm:-top-28 -top-10 sm:-left-28 -left-10 z-10'/>
           <div>
             <img
-              src='/src/assets/icon.png'
+              src='/icon.png'
               alt='picture'
               className='2xl:w-[450px] 2xl:h-[450px] xl:w-[375px] xl:h-[375px] lg:w-[300px] lg:h-[300px] md:w-[400px] md:h-[400px] sm:w-[300px] sm:h-[300px] w-[200px] h-[200px]
               object-cover absolute z-20' 
