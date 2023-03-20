@@ -143,7 +143,7 @@ export const database = [
 export const projects = [
   {
     id: 1,
-    image: '/src/assets/projects/food-square.png',
+    image: '/projects/food-square.png',
     title: 'Food Square',
     description: 'Full-stack social network app centered around food and recipes. You are able to create and share recipes, review other recipes, build a meal plan and much more. This project is a open source output of my bachelor\'s thesis.',
     github: 'https://github.com/itsDaiton/food-square',
@@ -154,7 +154,7 @@ export const projects = [
   },
   {
     id: 2,
-    image: '/src/assets/projects/swift.png',
+    image: '/projects/swift.png',
     title: 'Swift',
     description: 'Web application that lets user plan their trips using a fully interactive map tool. After filling out origin and destination of the trip, the app will then calculate a route with desired travel mode. Application also has a Firebase authentication with multiple OAuth providers.',
     github: 'https://github.com/itsDaiton/swift',
@@ -165,7 +165,7 @@ export const projects = [
   },
   {
     id: 3,
-    image: '/src/assets/projects/weather-app.png',
+    image: '/projects/weather-app.png',
     title: 'Weather App',
     description: 'Single-page web application that allows users to get accurate real-time weather conditions for a specific location. Weather data are being fetched from OpenWeather API.',
     github: 'https://github.com/itsDaiton/weather-app',
@@ -176,7 +176,7 @@ export const projects = [
   },
   {
     id: 4,
-    image: '/src/assets/projects/running-frog.png',
+    image: '/projects/running-frog.png',
     title: 'Running Frog',
     description: 'A flash-like JavaScript game based on \'Flappy Bird\' and other jumping games. The goal of the game is to jump over incoming mushrooms and make your way through magical forest. The game gets harder as you score more points.',
     github: 'https://github.com/itsDaiton/running-frog',
@@ -187,7 +187,7 @@ export const projects = [
   },
   {
     id: 5,
-    image: '/src/assets/projects/maze-runner.png',
+    image: '/projects/maze-runner.png',
     title: 'Maze Runner',
     description: 'Vanilla JavaScript Maze game. The goal of the game is to find your way through randomly generated maze as fast as possible. Each round, maze is being generated using the \'Depth-first search\' algorithm.',
     github: 'https://github.com/itsDaiton/maze-runner',
