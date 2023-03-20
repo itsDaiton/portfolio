@@ -16,7 +16,7 @@ const About = () => {
               I'm an ambitious university student currently studying Applied Informatics at Prague University of Economics and Business.
               I first got into coding in one of my high school classes and have been loving it ever since. 
               I like always learning new stuff and building unique applications.
-              I'm mainly focused on exploring frontend technologies and web development (mainly React), as I'd like to pursue this career path in my future.
+              I'm focused on exploring frontend technologies and web development (mainly React), as I'd like to pursue this career path in my future.
               In my free time I like to code, play video games and watch TV shows. As a sports hobbies I love working out, cycling and skiing. 
               &nbsp;<b>I'm currently looking for a junior frontend developer job.</b>
             </p>

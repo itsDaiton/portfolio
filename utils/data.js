@@ -156,7 +156,7 @@ export const projects = [
     id: 2,
     image: '/src/assets/projects/swift.png',
     title: 'Swift',
-    description: 'Web application that lets user plan their trips using a fully interactive map tool. After filling out origin and destination of the trip, the app will then calculate a route with in desired travel mode. Application also has a Firebase authentication with multiple OAuth providers.',
+    description: 'Web application that lets user plan their trips using a fully interactive map tool. After filling out origin and destination of the trip, the app will then calculate a route with desired travel mode. Application also has a Firebase authentication with multiple OAuth providers.',
     github: 'https://github.com/itsDaiton/swift',
     demo: 'https://swift-pst0.onrender.com/',
     topics: [

@@ -12,16 +12,17 @@ const Hero = () => {
           <h1 className='font-semibold xl:text-[72px] lg:text-[56px] md:text-[48px] sm:text-[42px] es:text-[36px] text-[32px]'>David Poslušný</h1>
           <p className='font-normal xl:text-[36px] lg:text-[32px] md:text-[28px] sm:text-[24px] es:text-[20px] text-[16px]'>Applied Informatics Student</p>
           <div className='flex es:flex-row flex-col es:items-center items-start es:space-x-5 space-x-0'>
-            <motion.button 
+            <motion.a 
               className='flex justify-start items-center sm:text-[20px] text-[16px] es:px-10 px-5 es:py-5 py-3 es:my-5 my-3 space-x-2 w-fit 
               font-semibold bg-white rounded-full button-shadow'
               whileHover={{
                 scale: 1.1
               }}
+              href='#contact'
             >
-              <a href='#contact'>Contact</a>
+              <span>Contact</span>
               <FontAwesomeIcon icon={faPaperPlane}/>
-            </motion.button>
+            </motion.a>
             <motion.button 
               className='flex justify-start items-center sm:text-[20px] text-[16px] es:px-10 px-5 es:py-5 py-3 es:my-5 my-3 space-x-2 w-fit 
               font-semibold bg-white rounded-full button-shadow'
