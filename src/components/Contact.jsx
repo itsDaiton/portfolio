@@ -24,16 +24,17 @@ const Contact = () => {
               ))}
             </div>
             <div className='flex justify-center items-center w-1/2 rounded-xl text-white lg:mt-0 mt-6'>
-            <motion.button 
-              className='flex justify-start items-center px-10 py-5 my-5 space-x-2 w-fit font-semibold bg-white 
+            <motion.a 
+              className='flex justify-start items-center px-10 py-5 my-5 space-x-2 w-fit font-semibold bg-white cursor-pointer
               rounded-full button-shadow text-black xl:text-[28px] lg:text-[24px] md:text-[22px] sm:text-[20px] text-[16px]'
               whileHover={{
                 scale: 1.1
               }}
+              href='/David_Poslusny_CV.pdf'
             >
               <span>Resume</span>
               <FontAwesomeIcon icon={faFile}/>
-            </motion.button>           
+            </motion.a>           
             </div>
           </div>
         </div>

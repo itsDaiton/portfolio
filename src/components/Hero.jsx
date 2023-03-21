@@ -23,16 +23,17 @@ const Hero = () => {
               <span>Contact</span>
               <FontAwesomeIcon icon={faPaperPlane}/>
             </motion.a>
-            <motion.button 
+            <motion.a
               className='flex justify-start items-center sm:text-[20px] text-[16px] es:px-10 px-5 es:py-5 py-3 es:my-5 my-3 space-x-2 w-fit 
-              font-semibold bg-white rounded-full button-shadow'
+              font-semibold bg-white rounded-full button-shadow cursor-pointer'
               whileHover={{
                 scale: 1.1
               }}
+              href='/David_Poslusny_CV.pdf'
             >
               <span>Resume</span>
               <FontAwesomeIcon icon={faFile}/>
-            </motion.button>
+            </motion.a>
           </div>
           <div className='flex flex-row items-center justify-start text-[36px] space-x-5 px-2 py-5 cursor-pointer'>
             <motion.a 
