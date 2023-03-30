@@ -145,11 +145,11 @@ export const projects = [
     id: 1,
     image: '/projects/food-square.png',
     title: 'Food Square',
-    description: 'Full-stack social network app centered around food and recipes. You are able to create and share recipes, review other recipes, build a meal plan and much more. This project is a open source output of my bachelor\'s thesis.',
+    description: 'Full-stack social network app centered around food and recipes. You are able to create and share recipes, review other recipes, build a meal plan and much more. Server side contains a scalable and secure REST API. This project is a open source output of my bachelor\'s thesis.',
     github: 'https://github.com/itsDaiton/food-square',
     demo: 'https://food-square.site',
     topics: [
-      'JavaScript', 'React', 'React Router', 'Material UI', 'Java', 'Spring Boot', 'PostgreSQL'
+      'JavaScript', 'React', 'React Router', 'Material UI', 'Java', 'Spring Boot', 'PostgreSQL', 'REST API'
     ]
   },
   {
@@ -160,7 +160,7 @@ export const projects = [
     github: 'https://github.com/itsDaiton/swift',
     demo: 'https://swift-pst0.onrender.com/',
     topics: [
-      'JavaScript', 'React', 'React Router', 'Tailwind CSS', 'Framer Motion', 'Firebase'
+      'JavaScript', 'React', 'React Router', 'Tailwind CSS', 'Framer Motion', 'Firebase', 'Google API'
     ]
   },
   {
