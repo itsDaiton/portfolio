@@ -2,7 +2,7 @@
 
 My personal developer portfolio.
 
-**https://davidposlusny.netlify.app**
+**https://davidposlusny.onrender.com/**
 
 ## Built With
 - React.js
