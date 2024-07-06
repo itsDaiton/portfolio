@@ -12,12 +12,16 @@ export const navigation = [
   },
   {
     id: 3,
-    title: 'Projects'
+    title: 'Education'
   },
   {
     id: 4,
+    title: 'Projects'
+  },
+  {
+    id: 5,
     title: 'Contact'
-  }
+  },
 ]
 
 export const about = [

@@ -17,7 +17,7 @@ const Footer = () => {
           <h1 className='font-semibold md:text-[32px] sm:text-[26px] es:text-[24px] text-[20px] pb-3'>Sitemap</h1>
           <div className='flex flex-row sm:text-[18px] es:tex-[16px] text-[14px]'>
             <ul className='space-y-2 underline pr-8'>
-              {navigation.slice(0, 2).map((link) => (
+              {navigation.slice(0, 3).map((link) => (
                 <li key={link.id}>
                   <a href={`#${link.title.toLowerCase()}`}>
                     {link.title}
@@ -26,7 +26,7 @@ const Footer = () => {
               ))}
             </ul>
             <ul className='space-y-2 underline pl-8'>
-              {navigation.slice(2, 4).map((link) => (
+              {navigation.slice(3, 5).map((link) => (
                 <li key={link.id}>
                   <a href={`#${link.title.toLowerCase()}`}>
                     {link.title}
