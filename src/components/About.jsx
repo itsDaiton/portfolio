@@ -14,17 +14,17 @@ const About = () => {
             text-justify xl:leading-[36px] lg:leading-[32px] leading-[24px] mr-10 lg:mb-0 mb-10 mt-3'
             >
               I'm an ambitious university student currently studying Applied Informatics at Prague University of Economics and Business.
-              I first got into coding in one of my high school classes and have been loving it ever since. 
+              I first got into coding in one of my high school classes and have been loving it ever since.
               I like always learning new stuff and building unique applications.
               I'm focused on exploring frontend technologies and web development (mainly React), as I'd like to pursue this career path in my future.
-              In my free time I like to code, play video games and watch TV shows. As a sports hobbies I love working out, cycling and skiing. 
+              In my free time I like to code, play video games and watch TV shows. As a sports hobbies I love working out, cycling and skiing.
               &nbsp;<b>I'm currently looking for a junior frontend developer job.</b>
             </p>
             <div className='flex flex-col lg:ml-10 ml-0'>
               {about.map((item) => (
-                <div className='flex flex-row lg:p-6 md:p-4 es:p-3 p-1 rounded-[20px] bg-[#1c1d20] mb-6 md:pr-20 sm:pr-10 pr-5' key={item.id}>
+                <div className='flex flex-row lg:p-6 md:p-4 es:p-3 p-1 rounded-[20px] bg-[#1c1d20] dark:bg-gray-700 mb-6 md:pr-20 sm:pr-10 pr-5' key={item.id}>
                   <div className='w-[64px] h-[64px] rounded-full flex items-center justify-center'>
-                    <FontAwesomeIcon icon={item.icon} className='sm:text-[36px] es:text-[24px] text-[20px] text-white'/>
+                    <FontAwesomeIcon icon={item.icon} className='sm:text-[36px] es:text-[24px] text-[20px] text-white' />
                   </div>
                   <div className='flex-1 flex flex-col justify-center ml-5 text-white'>
                     <h4 className='font-semibold sm:text-[24px] es:text-[20px] text-[18px] sm:leading-[20px] leading-[12px] mb-1'>

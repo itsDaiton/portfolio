@@ -1,20 +1,35 @@
 import React from 'react'
-import { About, Contact, Footer, Hero, Navbar, Projects, Skills} from './components'
+import { About, Contact, Footer, Hero, Navbar, Projects, Skills } from './components'
+import { useState, useEffect } from 'react'
 
 const App = () => {
+
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedMode = localStorage.getItem('darkMode')
+    return savedMode ? JSON.parse(savedMode) : false
+  })
+
+  const toggleDarkMode = () => {
+    setDarkMode((prevMode) => {
+      const newMode = !prevMode
+      localStorage.setItem('darkMode', JSON.stringify(newMode))
+      return newMode
+    })
+  }
+
   return (
-    <div className='w-full overflow-hidden'>
-      <div className='sm:px-16 px-6 flex justify-center items-center'>
+    <div className={`w-full overflow-hidden ${darkMode ? 'dark' : ''}`}>
+      <div className='sm:px-16 px-6 flex justify-center items-center dark:bg-gray-900 dark:text-white'>
         <div className='2xl:max-w-[1536px] w-full'>
-          <Navbar/>
-          <Hero/>
-          <About/>
-          <Skills/>
-          <Projects/>
-          <Contact/>
+          <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
