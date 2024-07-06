@@ -1,5 +1,5 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faClock, faCode, faEnvelope, faProjectDiagram } from "@fortawesome/free-solid-svg-icons"
+import { faClock, faCode, faEnvelope, faProjectDiagram, faUniversity, faGraduationCap } from "@fortawesome/free-solid-svg-icons"
 
 export const navigation = [
   {
@@ -172,7 +172,7 @@ export const projects = [
     demo: 'https://sparkly-lolly-96f74c.netlify.app/',
     topics: [
       'HTML', 'CSS', 'JavaScript', 'API'
-    ]  
+    ]
   },
   {
     id: 4,
@@ -183,7 +183,7 @@ export const projects = [
     demo: 'https://cool-genie-41cf5f.netlify.app/',
     topics: [
       'HTML', 'CSS', 'JavaScript', 'p5.js'
-    ]  
+    ]
   },
   {
     id: 5,
@@ -194,7 +194,7 @@ export const projects = [
     demo: 'https://regal-fairy-45218d.netlify.app/',
     topics: [
       'HTML', 'CSS', 'JavaScript', 'jQuery', 'AJAX'
-    ]   
+    ]
   }
 ]
 
@@ -216,5 +216,29 @@ export const contacts = [
     text: '/david-poslušný-4b3a19242',
     action: 'https://linkedin.com/in/david-poslušný-4b3a19242',
     icon: faLinkedin
+  },
+]
+
+export const education = [
+  {
+    id: 1,
+    institution: 'Smíchovská střední průmyslová škola a gymnázium',
+    degree: 'Information Technologies',
+    duration: '2015 - 2019',
+    icon: faCode,
+  },
+  {
+    id: 2,
+    institution: 'Prague University of Economics and Business',
+    degree: 'Applied Informatics',
+    duration: '2019 - 2023',
+    icon: faUniversity,
+  },
+  {
+    id: 3,
+    institution: 'Prague University of Economics and Business',
+    degree: 'Knowledge and Web Technologies | Quantitative Analysis',
+    duration: '2023 - Present',
+    icon: faGraduationCap,
   },
 ]

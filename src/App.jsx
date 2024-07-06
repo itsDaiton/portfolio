@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, Contact, Footer, Hero, Navbar, Projects, Skills } from './components'
+import { About, Contact, Education, Footer, Hero, Navbar, Projects, Skills } from './components'
 import { useState, useEffect } from 'react'
 
 const App = () => {
@@ -24,6 +24,7 @@ const App = () => {
           <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
           <Hero />
           <About />
+          <Education />
           <Skills />
           <Projects />
           <Contact />
