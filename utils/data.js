@@ -27,21 +27,33 @@ export const navigation = [
 export const about = [
   {
     id: 1,
-    title: '8+',
+    title: '9+',
     text: 'Years of coding.',
     icon: faClock
   },
   {
     id: 2,
-    title: '15+',
+    title: '25+',
     text: 'Completed projects on GitHub.',
     icon: faProjectDiagram
   },
   {
     id: 3,
     title: '10+',
-    text: 'Languages and frameworks experienced.',
+    text: 'Languages and frameworks known.',
     icon: faCode
+  },
+  {
+    id: 4,
+    title: 'Degree in',
+    text: 'Software Engineering | Computer Science',
+    icon: faGraduationCap
+  },
+  {
+    id: 5,
+    title: 'Currently studying',
+    text: 'Data Science | Machine Learning | Statistics',
+    icon: faGraduationCap
   },
 ]
 
