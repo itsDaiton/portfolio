@@ -57,102 +57,88 @@ export const about = [
   },
 ]
 
-export const backend = [
+export const languages = [
   {
     id: 1,
-    title: 'Java',
-    level: 'Advanced'
-  },
-  {
-    id: 2,
-    title: 'Spring Boot',
-    level: 'Intermediate'
-  },
-  {
-    id: 3,
-    title: 'C#',
-    level: 'Intermediate'
-  },
-  {
-    id: 4,
-    title: 'PHP',
-    level: 'Intermediate'
-  },
-  {
-    id: 5,
     title: 'Python',
-    level: 'Beginner'
-  },
-]
-
-export const frontend = [
-  {
-    id: 1,
-    title: 'HTML',
-    level: 'Expert'
   },
   {
     id: 2,
-    title: 'CSS',
-    level: 'Advanced'
+    title: 'Java',
   },
   {
     id: 3,
     title: 'JavaScript',
-    level: 'Advanced'
   },
   {
     id: 4,
-    title: 'React',
-    level: 'Intermediate'
+    title: 'C#',
   },
   {
     id: 5,
-    title: 'React Native',
-    level: 'Beginner'
+    title: 'PHP',
   },
   {
     id: 6,
-    title: 'Next.js',
-    level: 'Beginner'
+    title: 'SQL',
   },
   {
     id: 7,
-    title: 'Tailwind CSS',
-    level: 'Advanced'
-  },
-  {
-    id: 8,
-    title: 'Redux',
-    level: 'Beginner'
+    title: 'R',
   },
 ]
 
-export const database = [
+export const frameworks = [
   {
     id: 1,
-    title: 'SQL',
-    level: 'Advanced'
+    title: 'Spring Boot',
   },
   {
     id: 2,
-    title: 'MySQL',
-    level: 'Intermediate'
+    title: 'React',
   },
   {
     id: 3,
-    title: 'PostgreSQL',
-    level: 'Intermediate'
+    title: 'Streamlit',
+  },
+]
+
+export const python_libs = [
+  {
+    id: 1,
+    title: 'Pandas',
+  },
+  {
+    id: 2,
+    title: 'NumPy',
+  },
+  {
+    id: 3,
+    title: 'Scikit-learn',
   },
   {
     id: 4,
-    title: 'MariaDB',
-    level: 'Advanced Beginner'
+    title: 'Matplotlib',
   },
   {
     id: 5,
-    title: 'Firebase',
-    level: 'Beginner'
+    title: 'PyTorch',
+  },
+  {
+    id: 6,
+    title: 'TensorFlow',
+  },
+  {
+    id: 7,
+    title: 'Keras',
+  },
+  {
+    id: 8,
+    title: 'SpaCy',
+  },
+  {
+    id: 9,
+    title: 'NLTK',
   },
 ]
 

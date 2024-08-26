@@ -1,7 +1,7 @@
-import { faCode, faDatabase, faServer } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faDatabase, faServer, faNetworkWired, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import { backend, frontend, database } from '../../utils/data'
+import { languages, frameworks, python_libs } from '../../utils/data'
 
 const Skills = () => {
   return (
@@ -11,48 +11,42 @@ const Skills = () => {
           <div className='flex flex-row justify-center'>
             <h1 className='font-semibold lg:text-[56px] md:text-[48px] sm:text-[42px] text-[32px]'>Skills</h1>
           </div>
-          <div className='flex flex-wrap justify-around py-10'>
-            <div className='button-shadow rounded-xl my-5 bg-gray-200 dark:bg-gray-500'>
-              <div className='flex flex-row justify-center items-center md:space-x-5 space-x-2 lg:text-[30px] md:text-[26px] sm:text-[22px] text-[20px]
-              es:px-28 ns:px-20 px-2 pt-5 pb-5 bg-[#1c1d20] dark:bg-gray-700 text-white rounded-t-xl'>
-                <FontAwesomeIcon icon={faServer} />
-                <span className='font-semibold'>Backend</span>
+          <div className='flex flex-wrap justify-around py-10 gap-6'>
+            <div className='w-full sm:w-[48%] lg:w-[30%] rounded-xl bg-white shadow-md dark:bg-gray-700'>
+              <div className='flex flex-row justify-center items-center md:space-x-5 space-x-2 lg:text-[30px] md:text-[26px] sm:text-[22px] text-[20px] px-6 pt-5 pb-3 bg-black text-white rounded-t-xl dark:bg-gray-800'>
+                <FontAwesomeIcon icon={faCode} className='text-white' />
+                <span className='font-semibold'>Languages</span>
               </div>
-              <div className='flex flex-col space-y-5 mt-5 pb-10 sm:h-[420px] h-[340px] dark:bg-gray-500'>
-                {backend.map((item) => (
-                  <div className='flex justify-between items-center' key={item.id}>
-                    <p className='font-semibold md:text-[20px] sm:text-[18px] es:text-[16px] text-[14px] px-3 text-center'>{item.title}</p>
-                    <p className='font-normal md:text-[18px] sm:text-[16px] es:text-[14px] text-[12px] px-3 text-center'>{item.level}</p>
+              <div className='flex flex-col mt-5 pb-5 bg-white dark:bg-gray-700 rounded-b-xl'>
+                {languages.map((item) => (
+                  <div className='flex justify-center items-center mb-4 last:mb-0' key={item.id}>
+                    <p className='font-semibold md:text-[24px] sm:text-[18px] es:text-[16px] text-[14px] text-gray-700 dark:text-white'>{item.title}</p>
                   </div>
                 ))}
               </div>
             </div>
-            <div className='button-shadow rounded-xl my-5 bg-gray-200 dark:bg-gray-500'>
-              <div className='flex flex-row justify-center items-center md:space-x-5 space-x-2 lg:text-[30px] md:text-[26px] sm:text-[22px] text-[20px]
-              es:px-28 ns:px-20 px-2 pt-5 pb-5 bg-[#1c1d20] dark:bg-gray-700 text-white rounded-t-xl'>
-                <FontAwesomeIcon icon={faCode} />
-                <span className='font-semibold'>Frontend</span>
+            <div className='w-full sm:w-[48%] lg:w-[30%] rounded-xl bg-white shadow-md dark:bg-gray-700'>
+              <div className='flex flex-row justify-center items-center md:space-x-5 space-x-2 lg:text-[30px] md:text-[26px] sm:text-[22px] text-[20px] px-6 pt-5 pb-3 bg-black text-white rounded-t-xl dark:bg-gray-800'>
+                <FontAwesomeIcon icon={faNetworkWired} className='text-white' />
+                <span className='font-semibold'>Frameworks</span>
               </div>
-              <div className='flex flex-col space-y-5 mt-5 mb-10 sm:h-[420px] h-[340px] dark:bg-gray-500'>
-                {frontend.map((item) => (
-                  <div className='flex justify-between items-center' key={item.id}>
-                    <p className='font-semibold md:text-[20px] sm:text-[18px] es:text-[16px] text-[14px] px-3 text-center'>{item.title}</p>
-                    <p className='font-normal md:text-[18px] sm:text-[16px] es:text-[14px] text-[12px] px-3 text-center'>{item.level}</p>
+              <div className='flex flex-col mt-5 pb-5 bg-white dark:bg-gray-700 rounded-b-xl'>
+                {frameworks.map((item) => (
+                  <div className='flex justify-center items-center mb-4 last:mb-0' key={item.id}>
+                    <p className='font-semibold md:text-[24px] sm:text-[18px] es:text-[16px] text-[14px] text-gray-700 dark:text-white'>{item.title}</p>
                   </div>
                 ))}
               </div>
             </div>
-            <div className='button-shadow rounded-xl my-5 bg-gray-200 dark:bg-gray-500'>
-              <div className='flex flex-row justify-center items-center md:space-x-5 space-x-2 lg:text-[30px] md:text-[26px] sm:text-[22px] text-[20px]
-              es:px-28 ns:px-20 px-2 pt-5 pb-5 bg-[#1c1d20] dark:bg-gray-700 text-white rounded-t-xl'>
-                <FontAwesomeIcon icon={faDatabase} />
-                <span className='font-semibold'>Databases</span>
+            <div className='w-full sm:w-[48%] lg:w-[30%] rounded-xl bg-white shadow-md dark:bg-gray-700'>
+              <div className='flex flex-row justify-center items-center md:space-x-5 space-x-2 lg:text-[30px] md:text-[26px] sm:text-[22px] text-[20px] px-6 pt-5 pb-3 bg-black text-white rounded-t-xl dark:bg-gray-800'>
+                <FontAwesomeIcon icon={faCodeBranch} className='text-white' />
+                <span className='font-semibold'>Python Libraries</span>
               </div>
-              <div className='flex flex-col space-y-5 mt-5 pb-10 sm:h-[420px] h-[340px] dark:bg-gray-500'>
-                {database.map((item) => (
-                  <div className='flex justify-between items-center' key={item.id}>
-                    <p className='font-semibold md:text-[20px] sm:text-[18px] es:text-[16px] text-[14px] px-3 text-center'>{item.title}</p>
-                    <p className='font-normal md:text-[18px] sm:text-[16px] es:text-[14px] text-[12px] px-3 text-center'>{item.level}</p>
+              <div className='flex flex-col mt-5 pb-5 bg-white dark:bg-gray-700 rounded-b-xl'>
+                {python_libs.map((item) => (
+                  <div className='flex justify-center items-center mb-4 last:mb-0' key={item.id}>
+                    <p className='font-semibold md:text-[24px] sm:text-[18px] es:text-[16px] text-[14px] text-gray-700 dark:text-white'>{item.title}</p>
                   </div>
                 ))}
               </div>
