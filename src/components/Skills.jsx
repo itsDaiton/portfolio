@@ -43,7 +43,7 @@ const Skills = () => {
                 <FontAwesomeIcon icon={faCodeBranch} className='text-white' />
                 <span className='font-semibold'>Python Libraries</span>
               </div>
-              <div className='flex flex-col mt-5 pb-5 bg-white dark:bg-gray-700 rounded-b-xl'>
+              <div className='flex flex-col mt-5 pb-10 bg-white dark:bg-gray-700 rounded-b-xl'>
                 {python_libs.map((item) => (
                   <div className='flex justify-center items-center mb-4 last:mb-0' key={item.id}>
                     <p className='font-semibold md:text-[24px] sm:text-[18px] es:text-[16px] text-[14px] text-gray-700 dark:text-white'>{item.title}</p>
