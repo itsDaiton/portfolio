@@ -145,17 +145,48 @@ export const python_libs = [
 export const projects = [
   {
     id: 1,
-    image: '/projects/food-square.png',
-    title: 'Food Square',
-    description: 'Full-stack social network app centered around food and recipes. You are able to create and share recipes, review other recipes, build a meal plan and much more. Server side contains a scalable and secure REST API. This project is a open source output of my bachelor\'s thesis.',
-    github: 'https://github.com/itsDaiton/food-square',
-    demo: 'https://food-square.site',
+    image: '/projects/nev.png',
+    title: 'Named Entity Visualizer',
+    description: 'NEV short for Named Entity Visualizer is a tool to visualize entities found in unstructured text. Entities are extracted from input text using Named Entity Recognition (NER) and then linked to concepts on Wikidata knowledge graph using Named Entity Linking (NEL). This process is executed using a pre-trained model with NLP pipeline.',
+    github: 'https://github.com/itsDaiton/named-entity-visualizer',
+    demo: 'https://named-entity-visualizer.streamlit.app/',
     topics: [
-      'JavaScript', 'React', 'React Router', 'Material UI', 'Java', 'Spring Boot', 'PostgreSQL', 'REST API'
+      'Python', 'Streamlit', 'SpaCy', 'NLP', 'Wikidata', 'Named Entity Recogniton', 'Named Entity Linking'
     ]
   },
   {
     id: 2,
+    image: '/projects/eurosat.png',
+    title: 'EuroSAT Image Classification',
+    description: 'An image classification task on EuroSAT dataset with neural networks using Keras and TensorFlow. The dataset consists of 27,000 labeled images of land use and land cover classes. The goal of the project is to classify satellite images into 10 different classes using convolutional neural networks.',
+    github: 'https://github.com/itsDaiton/eurosat-image-classification',
+    topics: [
+      'Python', 'TensorFlow', 'Keras', 'Deep Learning', 'Computer Vision', 'CNNs', 'Image Classification'
+    ]
+  },
+  {
+    id: 3,
+    image: '/projects/calendar.png',
+    title: 'Calendar App',
+    description: 'Simple calendar application that lets user create, edit and delete events. The application is built using React, Redux and TypeScript. It also uses Tailwind CSS for styling and dayJS for date manipulation.',
+    github: 'https://github.com/itsDaiton/calendar-app',
+    demo: 'https://daiton-calendar.onrender.com/',
+    topics: [
+      'React', 'Redux', 'TypeScript', 'Calendar', 'Tailwind CSS', 'dayJS', 'Event Management'
+    ]
+  },
+  {
+    id: 4,
+    image: '/projects/sentiment.png',
+    title: 'IMDB Sentiment Analysis',
+    description: 'Sentiment analysis of IMDB movie reviews using natural language processing. The goal of the project is to classify movie reviews as positive or negative using NLTK library. The dataset consists of 50,000 labeled movie reviews. The project uses a plethora of sentiment analysis techniques and models.',
+    github: 'https://github.com/itsDaiton/imdb-reviews-sentiment-analysis',
+    topics: [
+      'Python', 'NLP', 'NLTK', 'Sentiment Analysis', 'Text Classification', 'Vector Embeddings', , 'BERT'
+    ]
+  },
+  {
+    id: 5,
     image: '/projects/swift.png',
     title: 'Swift',
     description: 'Web application that lets user plan their trips using a fully interactive map tool. After filling out origin and destination of the trip, the app will then calculate a route with desired travel mode. Application also has a Firebase authentication with multiple OAuth providers.',
@@ -165,39 +196,6 @@ export const projects = [
       'JavaScript', 'React', 'React Router', 'Tailwind CSS', 'Framer Motion', 'Firebase', 'Google API'
     ]
   },
-  {
-    id: 3,
-    image: '/projects/weather-app.png',
-    title: 'Weather App',
-    description: 'Single-page web application that allows users to get accurate real-time weather conditions for a specific location. Weather data are being fetched from OpenWeather API.',
-    github: 'https://github.com/itsDaiton/weather-app',
-    demo: 'https://sparkly-lolly-96f74c.netlify.app/',
-    topics: [
-      'HTML', 'CSS', 'JavaScript', 'API'
-    ]
-  },
-  {
-    id: 4,
-    image: '/projects/running-frog.png',
-    title: 'Running Frog',
-    description: 'A flash-like JavaScript game based on \'Flappy Bird\' and other jumping games. The goal of the game is to jump over incoming mushrooms and make your way through magical forest. The game gets harder as you score more points.',
-    github: 'https://github.com/itsDaiton/running-frog',
-    demo: 'https://cool-genie-41cf5f.netlify.app/',
-    topics: [
-      'HTML', 'CSS', 'JavaScript', 'p5.js'
-    ]
-  },
-  {
-    id: 5,
-    image: '/projects/maze-runner.png',
-    title: 'Maze Runner',
-    description: 'Vanilla JavaScript Maze game. The goal of the game is to find your way through randomly generated maze as fast as possible. Each round, maze is being generated using the \'Depth-first search\' algorithm.',
-    github: 'https://github.com/itsDaiton/maze-runner',
-    demo: 'https://regal-fairy-45218d.netlify.app/',
-    topics: [
-      'HTML', 'CSS', 'JavaScript', 'jQuery', 'AJAX'
-    ]
-  }
 ]
 
 export const contacts = [

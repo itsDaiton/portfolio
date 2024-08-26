@@ -49,18 +49,20 @@ const ProjectBox = ({ image, title, description, github, demo, topics }) => {
           <span>Code</span>
           <FontAwesomeIcon icon={faCode} />
         </motion.a>
-        <motion.a
-          className='flex justify-start items-center es:text-[16px] ns:text-[14px] text-[12px] px-5 py-3 my-5 space-x-2 w-fit font-semibold rounded-full 
+        {demo ?
+          <motion.a
+            className='flex justify-start items-center es:text-[16px] ns:text-[14px] text-[12px] px-5 py-3 my-5 space-x-2 w-fit font-semibold rounded-full 
           bg-[#1c1d20] text-white dark:bg-gray-700'
-          whileHover={{
-            scale: 1.1
-          }}
-          href={demo}
-          target='_blank'
-        >
-          <span>Live Demo</span>
-          <FontAwesomeIcon icon={faTvAlt} />
-        </motion.a>
+            whileHover={{
+              scale: 1.1
+            }}
+            href={demo}
+            target='_blank'
+          >
+            <span>Live Demo</span>
+            <FontAwesomeIcon icon={faTvAlt} />
+          </motion.a>
+          : null}
       </div>
     </div>
   )
