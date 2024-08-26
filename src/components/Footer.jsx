@@ -11,7 +11,7 @@ const Footer = () => {
       <div className='flex w-full lg:flex-row flex-col items-center justify-between lg:space-y-0 space-y-6'>
         <div className='flex flex-col lg:w-1/3 w-fit justify-center items-center text-center lg:space-y-0 space-y-2 px-2'>
           <h1 className='font-semibold sm:text-[24px] es:text-[18px] text-[16px]'>David Poslušný</h1>
-          <p className='sm:text-[16px] es:text-[14px] text-[12px]'>© 2023 | Designed and built by David Poslušný</p>
+          <p className='sm:text-[16px] es:text-[14px] text-[12px]'>© 2024 | Designed and built by David Poslušný</p>
         </div>
         <div className='flex flex-col lg:w-1/3 w-fit justify-center items-center'>
           <h1 className='font-semibold md:text-[32px] sm:text-[26px] es:text-[24px] text-[20px] pb-3'>Sitemap</h1>
