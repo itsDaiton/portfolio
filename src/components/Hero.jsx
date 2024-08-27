@@ -29,7 +29,7 @@ const Hero = () => {
               whileHover={{
                 scale: 1.1
               }}
-              href='/David_Poslusny_CV.pdf'
+              href='/resume.pdf'
             >
               <span>Resume</span>
               <FontAwesomeIcon icon={faFile} />
