@@ -14,6 +14,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "framer-motion": "^10.2.5",
+    "portfolio": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swiper": "^9.1.0"
