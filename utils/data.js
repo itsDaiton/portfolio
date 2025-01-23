@@ -60,27 +60,27 @@ export const about = [
 export const languages = [
   {
     id: 1,
-    title: 'Python',
-  },
-  {
-    id: 2,
-    title: 'Java',
-  },
-  {
-    id: 3,
     title: 'JavaScript',
   },
   {
+    id: 2,
+    title: 'TypeScript',
+  },
+  {
+    id: 3,
+    title: 'Python',
+  },
+  {
     id: 4,
-    title: 'C#',
+    title: 'Java',
   },
   {
     id: 5,
-    title: 'PHP',
+    title: 'C#',
   },
   {
     id: 6,
-    title: 'SQL',
+    title: 'PHP',
   },
   {
     id: 7,
@@ -88,29 +88,49 @@ export const languages = [
   },
 ]
 
-export const frameworks = [
+export const webDev = [
   {
     id: 1,
-    title: 'Spring Boot',
-  },
-  {
-    id: 2,
     title: 'React',
   },
   {
+    id: 2,
+    title: 'Node.js',
+  },
+  {
     id: 3,
-    title: 'Streamlit',
+    title: 'REST API',
+  },
+  {
+    id: 4,
+    title: 'GraphQL',
+  },
+  {
+    id: 5,
+    title: 'Drizzle ORM',
+  },
+  {
+    id: 6,
+    title: 'Spring Boot',
+  },
+  {
+    id: 7,
+    title: 'Tailwind CSS',
+  },
+  {
+    id: 8,
+    title: 'Chakra UI',
   },
 ]
 
-export const python_libs = [
+export const dataScience = [
   {
     id: 1,
-    title: 'Pandas',
+    title: 'PyTorch',
   },
   {
     id: 2,
-    title: 'NumPy',
+    title: 'Pandas',
   },
   {
     id: 3,
@@ -122,23 +142,19 @@ export const python_libs = [
   },
   {
     id: 5,
-    title: 'PyTorch',
+    title: 'spaCy',
   },
   {
     id: 6,
-    title: 'TensorFlow',
+    title: 'NLTK',
   },
   {
     id: 7,
-    title: 'Keras',
+    title: 'Streamlit',
   },
   {
     id: 8,
-    title: 'SpaCy',
-  },
-  {
-    id: 9,
-    title: 'NLTK',
+    title: 'Transformers',
   },
 ]
 

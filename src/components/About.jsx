@@ -13,12 +13,12 @@ const About = () => {
             text-justify xl:leading-[36px] lg:leading-[32px] leading-[24px] mr-10 lg:mb-0 mb-10 mt-3'
             >
               I am a graduate university student currently studying Knowledge and Web Technologies at Prague University of Economics and Business.
-              I have a  bachelor's degree in Applied Informatics but recently I have been focusing on Data Science and Machine Learning.
-              My main area of interest is Deep Learning and training neural networks.
-              I like to explore and learn about new things, that is why I am also considering a career in research.
+              I have a  bachelor's degree in Applied Informatics and recently I have been focusing on Data Science and Machine Learning.
+              My main area of interest is Deep Learning and training neural networks. I also have experience with Web Development (React, Node.js, GraphQL).
+              I like to explore and learn about new things.
               Right now, I am working on my master's thesis which is about exploring the usage of Transformers in the field of Computer Vision, specifically in the area of Image Classification.
               I also like to code, play video games and watch TV shows. As a sports hobbies I love working out, cycling and skiing.
-              I am looking for a part-time job in either Data Science or Machine Learning to gain more experience and knowledge in the field.
+              I am looking for a part-time job in either Data Science, Machine Learning or Web Development to gain more experience and knowledge.
             </p>
             <div className='flex flex-col lg:ml-10 ml-0'>
               {about.map((item) => (
