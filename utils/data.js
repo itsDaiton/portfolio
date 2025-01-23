@@ -161,27 +161,16 @@ export const dataScience = [
 export const projects = [
   {
     id: 1,
-    image: '/projects/nev.png',
-    title: 'Named Entity Visualizer',
-    description: 'NEV short for Named Entity Visualizer is a tool to visualize entities found in unstructured text. Entities are extracted from input text using Named Entity Recognition (NER) and then linked to concepts on Wikidata knowledge graph using Named Entity Linking (NEL). This process is executed using a pre-trained model with NLP pipeline.',
-    github: 'https://github.com/itsDaiton/named-entity-visualizer',
-    demo: 'https://named-entity-visualizer.streamlit.app/',
+    image: '/projects/portal-dedice.png',
+    title: 'Portál dědice',
+    description: 'A full-stack React and TypeScript application with GraphQL, Drizzle ORM and MySQL database. The application is an innovative platform that connects heirs and notaries in one place, while also offering an interactive guide through inheritance process.',
+    github: 'https://github.com/itsDaiton/portal-dedice',
     topics: [
-      'Python', 'Streamlit', 'SpaCy', 'NLP', 'Wikidata', 'Named Entity Recogniton', 'Named Entity Linking'
+      'React', 'Node.js', 'GraphQL', 'Apollo', 'MySQL', 'TypeScript', 'Chakra UI', 'Drizzle ORM', 'Notary app'
     ]
   },
   {
     id: 2,
-    image: '/projects/eurosat.png',
-    title: 'EuroSAT Image Classification',
-    description: 'An image classification task on EuroSAT dataset with neural networks using Keras and TensorFlow. The dataset consists of 27,000 labeled images of land use and land cover classes. The goal of the project is to classify satellite images into 10 different classes using convolutional neural networks.',
-    github: 'https://github.com/itsDaiton/eurosat-image-classification',
-    topics: [
-      'Python', 'TensorFlow', 'Keras', 'Deep Learning', 'Computer Vision', 'CNNs', 'Image Classification'
-    ]
-  },
-  {
-    id: 3,
     image: '/projects/calendar.png',
     title: 'Calendar App',
     description: 'Simple calendar application that lets user create, edit and delete events. The application is built using React, Redux and TypeScript. It also uses Tailwind CSS for styling and dayJS for date manipulation.',
@@ -189,6 +178,17 @@ export const projects = [
     demo: 'https://daiton-calendar.onrender.com/',
     topics: [
       'React', 'Redux', 'TypeScript', 'Calendar', 'Tailwind CSS', 'dayJS', 'Event Management'
+    ]
+  },
+  {
+    id: 3,
+    image: '/projects/nev.png',
+    title: 'Named Entity Visualizer',
+    description: 'NEV short for Named Entity Visualizer is a tool to visualize entities found in unstructured text. Entities are extracted from input text using Named Entity Recognition (NER) and then linked to concepts on Wikidata knowledge graph using Named Entity Linking (NEL). This process is executed using a pre-trained model with NLP pipeline.',
+    github: 'https://github.com/itsDaiton/named-entity-visualizer',
+    demo: 'https://named-entity-visualizer.streamlit.app/',
+    topics: [
+      'Python', 'Streamlit', 'SpaCy', 'NLP', 'Wikidata', 'Named Entity Recogniton', 'Named Entity Linking'
     ]
   },
   {
