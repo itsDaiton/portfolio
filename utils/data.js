@@ -238,10 +238,10 @@ export const contacts = [
 export const education = [
   {
     id: 1,
-    institution: 'Smíchovská střední průmyslová škola a gymnázium',
-    degree: 'Information Technologies',
-    duration: '2015 - 2019',
-    icon: faCode,
+    institution: 'Prague University of Economics and Business',
+    degree: 'Knowledge and Web Technologies | Quantitative Analysis',
+    duration: '2023 - Present',
+    icon: faGraduationCap,
   },
   {
     id: 2,
@@ -252,9 +252,11 @@ export const education = [
   },
   {
     id: 3,
-    institution: 'Prague University of Economics and Business',
-    degree: 'Knowledge and Web Technologies | Quantitative Analysis',
-    duration: '2023 - Present',
-    icon: faGraduationCap,
+    institution: 'Smíchovská střední průmyslová škola a gymnázium',
+    degree: 'Information Technologies',
+    duration: '2015 - 2019',
+    icon: faCode,
   },
+
+
 ]
