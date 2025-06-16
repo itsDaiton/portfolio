@@ -1,5 +1,5 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faClock, faCode, faEnvelope, faProjectDiagram, faUniversity, faGraduationCap } from "@fortawesome/free-solid-svg-icons"
+import { faClock, faCode, faEnvelope, faUniversity, faGraduationCap, faRobot } from "@fortawesome/free-solid-svg-icons"
 
 export const navigation = [
   {
@@ -27,32 +27,33 @@ export const navigation = [
 export const about = [
   {
     id: 1,
-    title: '9+',
-    text: 'Years of coding.',
+    title: '10+',
+    text: 'Years of coding',
     icon: faClock
   },
+
   {
     id: 2,
-    title: '25+',
-    text: 'Completed projects on GitHub.',
-    icon: faProjectDiagram
-  },
-  {
-    id: 3,
     title: '10+',
-    text: 'Languages and frameworks known.',
+    text: 'Languages and frameworks known',
     icon: faCode
   },
   {
+    id: 3,
+    title: 'Focused on',
+    text: 'Machine Learning | Deep Learning | GenAI',
+    icon: faRobot
+  },
+  {
     id: 4,
-    title: 'Degree in',
-    text: 'Software Engineering | Computer Science',
+    title: 'Bachelor\'s degree',
+    text: 'Applied Informatics',
     icon: faGraduationCap
   },
   {
     id: 5,
-    title: 'Currently studying',
-    text: 'Data Science | Machine Learning | Statistics',
+    title: 'Master\'s degree',
+    text: 'Knowledge and Web Technologies',
     icon: faGraduationCap
   },
 ]
@@ -240,7 +241,7 @@ export const education = [
     id: 1,
     institution: 'Prague University of Economics and Business',
     degree: 'Knowledge and Web Technologies | Quantitative Analysis',
-    duration: '2023 - Present',
+    duration: '2023 - 2025',
     icon: faGraduationCap,
   },
   {

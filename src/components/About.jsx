@@ -12,25 +12,29 @@ const About = () => {
           </h1>
           <div className="flex lg:flex-row flex-col justify-between items-center">
             <p
-              className="font-normal md:text-[20px] sm:text-[18px] es:text-[16px] text-[14px] xl:w-[40%] lg:w-[60%] w-fit
-            text-justify xl:leading-[36px] lg:leading-[32px] leading-[24px] mr-10 lg:mb-0 mb-10 mt-3"
+              className="font-normal text-justify break-words hypens-auto 
+             text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] 
+             leading-[26px] sm:leading-[30px] md:leading-[32px] lg:leading-[36px] 
+             xl:w-[40%] lg:w-[55%] w-fit 
+             mr-10 mt-4 mb-8"
             >
-              I am a graduate university student currently studying Knowledge
-              and Web Technologies at Prague University of Economics and
-              Business. I have a bachelor's degree in Applied Informatics and
-              recently I have been focusing on Data Science and Machine
-              Learning. My main area of interest is Deep Learning and training
-              neural networks. I also have experience with Web Development
-              (React, Node.js, GraphQL). I like to explore and learn about new
-              things. Right now, I am working on my master's thesis which is
-              about exploring the usage of Transformers in the field of Computer
-              Vision, specifically in the area of Image Classification. I also
-              like to code, play video games and watch TV shows. As a sports
-              hobbies I love working out, cycling and skiing. I am looking for a
-              full-time job in either Data Science, Machine Learning or Web
-              Development after my graduation in June 2025.
+              I am a recent graduate with a master's degree in Knowledge and Web
+              Technologies from the Prague University of Economics and Business.
+              I hold a bachelor's degree in Applied Informatics and have
+              developed a strong focus on Data Science and Machine Learning
+              throughout my studies. My primary interest lies in Deep Learning
+              and training neural networks. I also have hands-on experience with
+              modern Web Development technologies, including React, Node.js, and
+              GraphQL. I enjoy exploring new technologies and continuously
+              expanding my knowledge. My master's thesis centered on the
+              application of Transformer-based architectures in computer vision,
+              particularly in image classification tasks. Outside of work, I
+              enjoy traveling, coding, and playing video games. I'm also
+              passionate about fitness, cycling, and skiing. I am currently
+              seeking a full-time position in Data Science, Machine Learning or
+              Generative AI.
             </p>
-            <div className="flex flex-col lg:ml-10 ml-0">
+            <div className="flex flex-col lg:ml-10 ml-0 lg:min-w-[600px]">
               {about.map((item) => (
                 <div
                   className="flex flex-row lg:p-6 md:p-4 es:p-3 p-1 rounded-[20px] bg-white shadow-xl dark:bg-gray-700 mb-6 md:pr-20 sm:pr-10 pr-5 dark:text-white"
