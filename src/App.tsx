@@ -4,13 +4,13 @@ import { useState, useEffect } from 'react'
 
 const App = () => {
 
-  const [darkMode, setDarkMode] = useState(() => {
+  const [darkMode, setDarkMode] = useState<boolean>(() => {
     const savedMode = localStorage.getItem('darkMode')
     return savedMode ? JSON.parse(savedMode) : false
   })
 
   const toggleDarkMode = () => {
-    setDarkMode((prevMode) => {
+    setDarkMode((prevMode: boolean) => {
       const newMode = !prevMode
       localStorage.setItem('darkMode', JSON.stringify(newMode))
       return newMode

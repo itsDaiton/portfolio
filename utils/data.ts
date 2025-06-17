@@ -1,6 +1,11 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faClock, faCode, faEnvelope, faUniversity, faGraduationCap, faRobot } from "@fortawesome/free-solid-svg-icons"
 
+interface SkillsItem {
+  id: number;
+  title: string;
+}
+
 export const navigation = [
   {
     id: 1,
@@ -58,105 +63,118 @@ export const about = [
   },
 ]
 
-export const languages = [
+export const languages: SkillsItem[] = [
   {
     id: 1,
-    title: 'JavaScript',
-  },
-  {
-    id: 2,
-    title: 'TypeScript',
-  },
-  {
-    id: 3,
     title: 'Python',
   },
   {
+    id: 2,
+    title: 'JavaScript',
+  },
+  {
+    id: 3,
+    title: 'TypeScript',
+  },
+  {
     id: 4,
-    title: 'Java',
+    title: 'React',
   },
   {
     id: 5,
-    title: 'C#',
+    title: 'Java',
   },
   {
     id: 6,
-    title: 'PHP',
+    title: 'C#',
   },
   {
     id: 7,
+    title: 'PHP',
+  },
+  {
+    id: 8,
     title: 'R',
   },
 ]
 
-export const webDev = [
-  {
-    id: 1,
-    title: 'React',
-  },
-  {
-    id: 2,
-    title: 'Node.js',
-  },
-  {
-    id: 3,
-    title: 'REST API',
-  },
-  {
-    id: 4,
-    title: 'GraphQL',
-  },
-  {
-    id: 5,
-    title: 'Drizzle ORM',
-  },
-  {
-    id: 6,
-    title: 'Spring Boot',
-  },
-  {
-    id: 7,
-    title: 'Tailwind CSS',
-  },
-  {
-    id: 8,
-    title: 'Chakra UI',
-  },
-]
-
-export const dataScience = [
+export const ml = [
   {
     id: 1,
     title: 'PyTorch',
   },
   {
     id: 2,
-    title: 'Pandas',
+    title: 'TensorFlow',
   },
   {
     id: 3,
-    title: 'Scikit-learn',
+    title: 'Transformers',
   },
   {
     id: 4,
-    title: 'Matplotlib',
+    title: 'Scikit-learn',
   },
   {
     id: 5,
-    title: 'spaCy',
+    title: 'SpaCy',
   },
   {
     id: 6,
     title: 'NLTK',
   },
+]
+
+export const dl = [
   {
-    id: 7,
-    title: 'Streamlit',
+    id: 1,
+    title: 'Neural Networks',
   },
   {
-    id: 8,
+    id: 2,
     title: 'Transformers',
   },
+  {
+    id: 3,
+    title: 'Computer Vision',
+  },
+  {
+    id: 4,
+    title: 'LLMs',
+  },
+  {
+    id: 5,
+    title: 'Generative AI',
+  },
+]
+export const dataScience = [
+  {
+    id: 1,
+    title: 'Statistical Analysis',
+  },
+  {
+    id: 2,
+    title: 'Model Evaluation',
+  },
+  {
+    id: 3,
+    title: 'Data Visualization',
+  }
+]
+
+export const others = [
+  {
+    id: 1,
+    title: 'Git',
+  },
+  {
+    id: 2,
+    title: 'Markdown',
+  },
+  {
+    id: 3,
+    title: 'SQL',
+  }
 ]
 
 export const projects = [
