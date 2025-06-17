@@ -1,9 +1,9 @@
-import React from "react"
-import { navigation } from "../../utils/data"
-import { motion } from "framer-motion"
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import React from 'react';
+import { navigation } from '../../utils/data';
+import { motion } from 'framer-motion';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

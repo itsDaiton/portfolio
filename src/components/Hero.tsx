@@ -1,8 +1,8 @@
-import React from "react"
-import { motion } from "framer-motion"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faFile, faPaperPlane } from "@fortawesome/free-solid-svg-icons"
+import React from 'react';
+import { motion } from 'framer-motion';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFile, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () => {
   return (
@@ -79,7 +79,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

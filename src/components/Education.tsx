@@ -1,6 +1,6 @@
-import React from "react"
-import { education } from "../../utils/data"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import React from 'react';
+import { education } from '../../utils/data';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Education = () => {
   return (
@@ -28,12 +28,8 @@ const Education = () => {
                   <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">
                     {edu.institution}
                   </h2>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    {edu.degree}
-                  </p>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    {edu.duration}
-                  </p>
+                  <p className="text-gray-600 dark:text-gray-400">{edu.degree}</p>
+                  <p className="text-gray-600 dark:text-gray-400">{edu.duration}</p>
                 </div>
               </div>
             ))}
@@ -41,7 +37,7 @@ const Education = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Education
+export default Education;

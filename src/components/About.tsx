@@ -1,6 +1,5 @@
-import React from "react"
-import { about } from "../../utils/data"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { about, aboutGeneric } from '../../utils/about';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const About = () => {
   return (
@@ -8,7 +7,7 @@ const About = () => {
       <div className="flex w-full">
         <div className="flex flex-col py-10 justify-start">
           <h1 className="font-semibold lg:text-[56px] md:text-[48px] sm:text-[42px] text-[32px]">
-            About Me
+            {aboutGeneric.heading}
           </h1>
           <div className="flex lg:flex-row flex-col justify-between items-center">
             <p
@@ -18,21 +17,7 @@ const About = () => {
              xl:w-[40%] lg:w-[55%] w-fit 
              mr-10 mt-4 mb-8"
             >
-              I am a recent graduate with a master's degree in Knowledge and Web
-              Technologies from the Prague University of Economics and Business.
-              I hold a bachelor's degree in Applied Informatics and have
-              developed a strong focus on Data Science and Machine Learning
-              throughout my studies. My primary interest lies in Deep Learning
-              and training neural networks. I also have hands-on experience with
-              modern Web Development technologies, including React, Node.js, and
-              GraphQL. I enjoy exploring new technologies and continuously
-              expanding my knowledge. My master's thesis centered on the
-              application of Transformer-based architectures in computer vision,
-              particularly in image classification tasks. Outside of work, I
-              enjoy traveling, coding, and playing video games. I'm also
-              passionate about fitness, cycling, and skiing. I am currently
-              seeking a full-time position in Data Science, Machine Learning or
-              Generative AI.
+              {aboutGeneric.text}
             </p>
             <div className="flex flex-col lg:ml-10 ml-0 lg:min-w-[600px]">
               {about.map((item) => (
@@ -61,7 +46,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

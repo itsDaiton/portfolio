@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -17,14 +17,14 @@
 
 .buttons-shadow-dark {
   box-shadow: 0 5px 10px 2px rgb(255 255 255 / 0.6);
-
 }
 
 .swiper-pagination-bullet-active {
   background-color: #1c1d20 !important;
 }
 
-.swiper-button-prev, .swiper-button-next  {
+.swiper-button-prev,
+.swiper-button-next {
   color: #1c1d20 !important;
 }
 
@@ -73,13 +73,13 @@
   }
   .swiper-button-prev {
     margin-left: -10px;
-  } 
+  }
 }
 
 @media (min-width: 1024px) {
   :root {
     --swiper-navigation-size: 40px;
-  } 
+  }
   .swiper-button-next {
     margin-right: -10px;
   }
@@ -112,7 +112,6 @@
   }
 }
 
-
 .footer-curved {
   position: relative;
   overflow: hidden;
@@ -122,9 +121,9 @@
 .footer-curved::before {
   background: white;
   position: absolute;
-  content: "";
-  left:0;
-  right:0;
+  content: '';
+  left: 0;
+  right: 0;
   top: -25px;
   height: 100px;
   border-radius: 0 0 50% 50%;
