@@ -62,3 +62,14 @@ export interface ProjectsProps {
   demo?: string;
   topics: string[];
 }
+
+export interface SkillsItem {
+  id: number;
+  title: string;
+}
+
+export interface SkillsCategory {
+  title: string;
+  icon: FontAwesomeIconProps['icon'];
+  data: SkillsItem[];
+}

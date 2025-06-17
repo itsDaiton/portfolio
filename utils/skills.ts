@@ -1,7 +1,11 @@
-interface SkillsItem {
-  id: number;
-  title: string;
-}
+import {
+  faCode,
+  faCodeBranch,
+  faDiagramProject,
+  faGear,
+  faRobot,
+} from '@fortawesome/free-solid-svg-icons';
+import { SkillsItem, SkillsCategory } from './types';
 
 export const languages: SkillsItem[] = [
   {
@@ -38,7 +42,7 @@ export const languages: SkillsItem[] = [
   },
 ];
 
-export const ml = [
+export const ml: SkillsItem[] = [
   {
     id: 1,
     title: 'PyTorch',
@@ -65,7 +69,7 @@ export const ml = [
   },
 ];
 
-export const dl = [
+export const dl: SkillsItem[] = [
   {
     id: 1,
     title: 'Neural Networks',
@@ -87,7 +91,7 @@ export const dl = [
     title: 'Generative AI',
   },
 ];
-export const dataScience = [
+export const dataScience: SkillsItem[] = [
   {
     id: 1,
     title: 'Statistical Analysis',
@@ -102,7 +106,7 @@ export const dataScience = [
   },
 ];
 
-export const others = [
+export const others: SkillsItem[] = [
   {
     id: 1,
     title: 'Git',
@@ -115,4 +119,12 @@ export const others = [
     id: 3,
     title: 'SQL',
   },
+];
+
+export const categories: SkillsCategory[] = [
+  { title: 'Languages', icon: faCode, data: languages },
+  { title: 'Machine Learning', icon: faRobot, data: ml },
+  { title: 'Deep Learning', icon: faDiagramProject, data: dl },
+  { title: 'Data Science', icon: faCodeBranch, data: dataScience },
+  { title: 'Others', icon: faGear, data: others },
 ];
