@@ -1,11 +1,3 @@
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import {
-  faCode,
-  faEnvelope,
-  faUniversity,
-  faGraduationCap,
-} from '@fortawesome/free-solid-svg-icons';
-
 interface SkillsItem {
   id: number;
   title: string;
@@ -236,26 +228,5 @@ export const projects = [
       'Drizzle ORM',
       'Notary app',
     ],
-  },
-];
-
-export const contacts = [
-  {
-    id: 1,
-    text: 'david.poslusny@gmail.com',
-    action: 'mailto:david.poslusny@gmail.com',
-    icon: faEnvelope,
-  },
-  {
-    id: 2,
-    text: '/itsDaiton',
-    action: 'https://github.com/itsDaiton',
-    icon: faGithub,
-  },
-  {
-    id: 3,
-    text: '/david-poslušný-4b3a19242',
-    action: 'https://linkedin.com/in/david-poslušný-4b3a19242',
-    icon: faLinkedin,
   },
 ];
