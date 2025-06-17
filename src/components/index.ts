@@ -2,8 +2,8 @@ import About from './about/About';
 import Contact from './contact/Contact';
 import Footer from './footer/Footer';
 import Hero from './hero/Hero';
-import Navbar from './Navbar';
-import Projects from './Projects';
+import Navbar from './navbar/Navbar';
+import Projects from '../projects/Projects';
 import Skills from './Skills';
 import Education from './education/Education';
 

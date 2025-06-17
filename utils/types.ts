@@ -42,3 +42,23 @@ type FooterLink = {
 export interface FooterLinkColumnProps {
   links: FooterLink[];
 }
+
+export interface NavbarProps {
+  id: number;
+  title: string;
+}
+
+export interface NavbarFunctionProps {
+  toggleDarkMode: () => void;
+  darkMode: boolean;
+}
+
+export interface ProjectsProps {
+  id: number;
+  image: string;
+  title: string;
+  description: string;
+  github: string;
+  demo?: string;
+  topics: string[];
+}

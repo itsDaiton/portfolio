@@ -1,4 +1,4 @@
-import { navigation } from '../../../utils/data';
+import { navigation } from '../../../utils/navigation';
 import { FooterLinkColumn } from './FooterLinkColumn';
 import { FooterSocialIcon } from './FooterSocialIcon';
 import { socialLinks } from '../../../utils/footer';

@@ -1,6 +1,5 @@
-import React from 'react';
 import { About, Contact, Education, Footer, Hero, Navbar, Projects, Skills } from './components';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState<boolean>(() => {
