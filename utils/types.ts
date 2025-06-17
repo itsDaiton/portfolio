@@ -1,8 +1,16 @@
-import { FontAwesomeIconProps } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIconProps } from '@fortawesome/react-fontawesome';
 
-export interface AboutItem {
+export interface AboutItemProps {
   id: number;
   title: string;
   text: string;
-  icon: FontAwesomeIconProps["icon"];
+  icon: FontAwesomeIconProps['icon'];
+}
+
+export interface EducationItemProps {
+  id: number;
+  institution: string;
+  degree: string;
+  duration: string;
+  icon: FontAwesomeIconProps['icon'];
 }
