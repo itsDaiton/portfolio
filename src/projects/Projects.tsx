@@ -17,7 +17,6 @@ const Projects = () => {
         <h1 className="font-semibold text-center lg:text-[56px] md:text-[48px] sm:text-[42px] text-[32px] pb-8">
           Projects
         </h1>
-
         <div className="w-full px-4">
           <Swiper
             modules={[Navigation, Pagination, Keyboard, Autoplay]}
@@ -34,7 +33,6 @@ const Projects = () => {
             ))}
           </Swiper>
         </div>
-
         <motion.a
           className="mt-10 flex justify-center items-center px-5 py-5 space-x-3 rounded-full button-shadow
           lg:text-[22px] md:text-[20px] sm:text-[18px] text-[14px] font-semibold text-center dark:bg-gray-700"

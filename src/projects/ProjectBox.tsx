@@ -8,7 +8,7 @@ export const ProjectBox = ({ image, title, description, github, demo, topics }: 
     'flex justify-start items-center es:text-[16px] ns:text-[14px] text-[12px] px-5 py-3 my-5 space-x-2 w-fit font-semibold rounded-full bg-[#1c1d20] text-white dark:bg-gray-700';
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 mb-12">
       <div className="flex lg:flex-row flex-col justify-center items-center lg:space-x-20">
         <img
           src={image}
@@ -30,7 +30,6 @@ export const ProjectBox = ({ image, title, description, github, demo, topics }: 
           </div>
         </div>
       </div>
-
       <div className="flex justify-center gap-4 flex-wrap">
         <motion.a
           className={sharedBtnClass}
