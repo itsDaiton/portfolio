@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="flex lg:flex-row flex-col pt-20 items-center w-full">
           <div className="flex flex-col justify-end lg:w-1/2 w-full gap-6">
             {contacts.map((item) => (
-              <ContactItem {...item} />
+              <ContactItem {...item} key={item.id} />
             ))}
           </div>
           <div className="flex justify-center items-center lg:w-1/2 w-full mt-6 lg:mt-0">

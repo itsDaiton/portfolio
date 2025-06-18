@@ -19,7 +19,7 @@ const About = () => {
 
           <div className="flex flex-col lg:ml-10 ml-0 lg:min-w-[600px]">
             {about.map((item) => (
-              <AboutItem {...item} />
+              <AboutItem {...item} key={item.id} />
             ))}
           </div>
         </div>

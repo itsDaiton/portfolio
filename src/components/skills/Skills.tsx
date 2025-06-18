@@ -1,5 +1,5 @@
-import { SkillBox } from './skills/SkillBox';
-import { categories } from '../../utils/skills';
+import { SkillBox } from './SkillBox';
+import { categories } from '../../../utils/skills';
 
 const Skills = () => {
   return (

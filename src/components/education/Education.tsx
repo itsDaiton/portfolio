@@ -12,7 +12,7 @@ const Education = () => {
 
       <div className="flex flex-col items-center py-10">
         {education.map((edu) => (
-          <EducationItem {...edu} />
+          <EducationItem {...edu} key={edu.id} />
         ))}
       </div>
     </section>
