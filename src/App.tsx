@@ -1,4 +1,14 @@
-import { About, Contact, Education, Footer, Hero, Navbar, Projects, Skills } from './components';
+import {
+  About,
+  Awards,
+  Contact,
+  Education,
+  Footer,
+  Hero,
+  Navbar,
+  Projects,
+  Skills,
+} from './components';
 import { useState } from 'react';
 
 const App = () => {
@@ -25,6 +35,7 @@ const App = () => {
           <Education />
           <Skills />
           <Projects />
+          <Awards />
           <Contact />
         </div>
       </div>

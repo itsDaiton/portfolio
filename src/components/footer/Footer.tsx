@@ -24,7 +24,7 @@ const Footer = () => {
           </h2>
           <div className="flex flex-row sm:text-[18px] es:text-[16px] text-[14px] gap-8">
             <FooterLinkColumn links={navigation.slice(0, 3)} />
-            <FooterLinkColumn links={navigation.slice(3, 5)} />
+            <FooterLinkColumn links={navigation.slice(3, 6)} />
           </div>
         </div>
         <div className="flex flex-col items-center lg:w-1/3">

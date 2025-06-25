@@ -73,3 +73,11 @@ export interface SkillsCategory {
   icon: FontAwesomeIconProps['icon'];
   data: SkillsItem[];
 }
+
+export interface AwardsItem {
+  id: number;
+  icon: FontAwesomeIconProps['icon'];
+  title: string;
+  date: string;
+  description: string;
+}

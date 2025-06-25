@@ -6,5 +6,6 @@ import Navbar from './navbar/Navbar';
 import Projects from '../projects/Projects';
 import Skills from './skills/Skills';
 import Education from './education/Education';
+import Awards from './awards/Awards';
 
-export { About, Contact, Footer, Hero, Navbar, Projects, Skills, Education };
+export { About, Contact, Footer, Hero, Navbar, Projects, Skills, Education, Awards };

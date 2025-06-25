@@ -19,6 +19,10 @@ export const navigation: NavbarProps[] = [
   },
   {
     id: 5,
+    title: 'Awards',
+  },
+  {
+    id: 6,
     title: 'Contact',
   },
 ];
