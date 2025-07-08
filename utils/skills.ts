@@ -72,11 +72,11 @@ export const ml: SkillsItem[] = [
 export const dl: SkillsItem[] = [
   {
     id: 1,
-    title: 'Neural Networks',
+    title: 'LangChain',
   },
   {
     id: 2,
-    title: 'Transformers',
+    title: 'LangGraph',
   },
   {
     id: 3,
@@ -88,20 +88,36 @@ export const dl: SkillsItem[] = [
   },
   {
     id: 5,
-    title: 'Generative AI',
+    title: 'GenAI',
+  },
+  {
+    id: 6,
+    title: 'AI Agents',
+  },
+  {
+    id: 7,
+    title: 'RAG',
   },
 ];
 export const dataScience: SkillsItem[] = [
   {
     id: 1,
-    title: 'Statistical Analysis',
+    title: 'PySpark',
   },
   {
     id: 2,
-    title: 'Model Evaluation',
+    title: 'Azure',
   },
   {
     id: 3,
+    title: 'Statistical Analysis',
+  },
+  {
+    id: 4,
+    title: 'Model Evaluation',
+  },
+  {
+    id: 5,
     title: 'Data Visualization',
   },
 ];
