@@ -27,7 +27,7 @@ const Navbar = ({ toggleDarkMode, darkMode }: NavbarFunctionProps) => {
       </div>
       <button
         onClick={toggleDarkMode}
-        className="ml-6 rounded-full text-[32px] text-black dark:text-white"
+        className="ml-12 rounded-full text-[32px] text-black dark:text-white"
         aria-label="Toggle dark mode"
       >
         <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />

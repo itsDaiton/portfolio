@@ -12,6 +12,16 @@ const AwardCard = ({ icon, title, date, description }: AwardsItem) => (
       {description && (
         <p className="mt-2 text-base sm:text-lg text-gray-600 dark:text-gray-400">{description}</p>
       )}
+      <p className="mt-2 text-sm sm:text-base text-gray-600 dark:text-gray-400">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="http://dx.doi.org/10.13140/RG.2.2.28393.81769"
+          className="text-blue-500 dark:text-blue-400 hover:underline font-semibold"
+        >
+          http://dx.doi.org/10.13140/RG.2.2.28393.81769
+        </a>
+      </p>
     </div>
   </div>
 );
