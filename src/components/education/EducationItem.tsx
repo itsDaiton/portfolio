@@ -7,7 +7,9 @@ export const EducationItem = ({ icon, institution, degree, duration }: Education
       <FontAwesomeIcon icon={icon} className="text-3xl sm:text-4xl text-gray-800 dark:text-white" />
     </div>
     <div className="text-center sm:text-left">
-      <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 dark:text-white">{institution}</h2>
+      <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 dark:text-white">
+        {institution}
+      </h2>
       <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">{degree}</p>
       <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">{duration}</p>
     </div>
