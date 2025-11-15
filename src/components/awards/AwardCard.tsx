@@ -2,15 +2,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { AwardsItem } from '../../../utils/types';
 
 const AwardCard = ({ icon, title, date, description }: AwardsItem) => (
-  <div className="w-full flex items-start bg-white dark:bg-gray-700 rounded-xl shadow-lg p-6">
-    <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-slate-100 dark:bg-gray-500 rounded-full">
-      <FontAwesomeIcon icon={icon} className="text-2xl text-black dark:text-white" />
+  <div className="w-full flex flex-col sm:flex-row items-start bg-white dark:bg-gray-700 rounded-xl shadow-lg p-6">
+    <div className="flex-shrink-0 w-16 h-16 sm:w-12 sm:h-12 flex items-center justify-center bg-slate-100 dark:bg-gray-500 rounded-full mx-auto sm:mx-0">
+      <FontAwesomeIcon icon={icon} className="text-3xl sm:text-2xl text-black dark:text-white" />
     </div>
-    <div className="ml-5 flex-1">
-      <h4 className="font-semibold text-xl sm:text-2xl text-gray-900 dark:text-white">{title}</h4>
-      <p className="mt-1 text-base sm:text-lg text-gray-600 dark:text-gray-400">{date}</p>
+    <div className="mt-4 sm:mt-0 sm:ml-5 flex-1 text-center sm:text-left">
+      <h4 className="font-semibold text-lg sm:text-xl md:text-2xl text-gray-900 dark:text-white">
+        {title}
+      </h4>
+      <p className="mt-1 text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400">
+        {date}
+      </p>
       {description && (
-        <p className="mt-2 text-base sm:text-lg text-gray-600 dark:text-gray-400">{description}</p>
+        <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400">
+          {description}
+        </p>
       )}
       <p className="mt-2 text-sm sm:text-base text-gray-600 dark:text-gray-400">
         <a
