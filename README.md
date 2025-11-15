@@ -2,7 +2,7 @@
 
 My personal developer portfolio.
 
-**https://davidposlusny.onrender.com/**
+**https://davidposlusny.cz**
 
 ## Built With
 - React.js
