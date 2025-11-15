@@ -16,7 +16,7 @@ const Hero = () => {
             David Poslušný
           </h1>
           <p className="font-normal xl:text-[32px] lg:text-[28px] md:text-[24px] sm:text-[20px] es:text-[14px] text-[12px]">
-            Master's Degree in Data Science | Deep Learning
+            AI Engineer | Data Scientist | Software Developer
           </p>
           <div className="flex es:flex-row flex-col es:items-center items-start es:space-x-5 space-x-0">
             <HeroButton href="#contact" icon={faPaperPlane} label="Contact" />

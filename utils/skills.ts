@@ -40,6 +40,10 @@ export const languages: SkillsItem[] = [
     id: 8,
     title: 'R',
   },
+  {
+    id: 9,
+    title: 'Node.js',
+  },
 ];
 
 export const ml: SkillsItem[] = [
