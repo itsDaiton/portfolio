@@ -3,7 +3,7 @@ import { HeroIconLinkProps } from './types';
 
 export const iconLinks: HeroIconLinkProps[] = [
   {
-    href: 'https://www.linkedin.com/in/david-poslu%C5%A1n%C3%BD-4b3a19242/',
+    href: 'https://www.linkedin.com/in/david-poslusny/',
     icon: faLinkedin,
     label: 'LinkedIn',
   },
