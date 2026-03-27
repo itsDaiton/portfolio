@@ -17,8 +17,8 @@ export const contacts: ContactProps[] = [
   },
   {
     id: 3,
-    text: '/david-poslušný-4b3a19242',
-    action: 'https://linkedin.com/in/david-poslušný-4b3a19242',
+    text: '/david-poslusny',
+    action: 'https://www.linkedin.com/in/david-poslusny/',
     icon: faLinkedin,
   },
 ];
