@@ -1,6 +1,6 @@
 # Portfolio
 
-My personal developer portfolio.
+My personal developer portfolio. UI made pre-AI agents. 💪
 
 **https://davidposlusny.cz**
 
