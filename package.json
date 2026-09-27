@@ -17,13 +17,13 @@
     "framer-motion": "^10.2.5",
     "portfolio": "file:",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^19.3.0",
     "swiper": "^9.1.0"
   },
   "devDependencies": {
     "@types/node": "^24.0.3",
     "@types/react": "^18.3.23",
-    "@types/react-dom": "^18.3.7",
+    "@types/react-dom": "^19.3.0",
     "@typescript-eslint/eslint-plugin": "^8.34.1",
     "@typescript-eslint/parser": "^8.34.1",
     "@vitejs/plugin-react": "^3.1.0",
